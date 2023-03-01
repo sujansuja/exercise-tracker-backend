@@ -10,7 +10,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.use(cors({
-    origin: ["http://localhost:5000", "https://exercise-tracker-app.onrender.com"]
+    origin: ["http://localhost:5000", "https://exercise-tracker-app-olpp.onrender.com"]
 }));
 app.use(express.json());
 
